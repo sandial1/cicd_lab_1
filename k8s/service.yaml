@@ -7,7 +7,7 @@ spec:
   ports:
   - name: http
     port: 80
-    targetPort: 3000
+    targetPort: 8080
   selector:
     app: nodejs-app
   type: NodePort

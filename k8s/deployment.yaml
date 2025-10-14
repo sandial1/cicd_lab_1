@@ -19,4 +19,4 @@ spec:
       - image: devopshint/node-app:latest
         name: nodejs-app
         ports:
-        - containerPort: 3000
+        - containerPort: 8080
